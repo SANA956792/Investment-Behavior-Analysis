@@ -24,20 +24,33 @@ The dashboard provides insights that can help **financial analysts, advisors, an
 
 The dataset includes the following features:
 
+## 🗂 Dataset Features
+
 | Column | Description |
 |------|-------------|
-| Age | Investor age |
-| Gender | Male / Female |
-| Investment_Avenues | Whether the investor invests |
-| Mutual_Funds | Mutual fund investment rating |
-| Equity_Market | Equity investment rating |
-| Fixed_Deposits | Fixed deposit investment rating |
-| Government_Bonds | Government bond rating |
-| Duration | Investment duration |
-| Invest_Monitor | Frequency of monitoring investments |
-| Objective | Savings objective |
-| Source | Source influencing investment |
-| Expect | Expected return percentage |
+| Gender | Gender of the investor (Male / Female) |
+| Age | Age of the investor in years |
+| Invest | Indicates whether the person is interested in investing (Yes / No) |
+| Mutual_Fund | Preference level for Mutual Fund investments |
+| Equity_Market | Preference level for Equity/Stock Market |
+| Debentures | Preference level for Debentures |
+| Government_Bonds | Preference level for Government Bonds |
+| Fixed_Deposits | Preference level for Fixed Deposits |
+| PPF | Preference level for Public Provident Fund (PPF) |
+| Gold | Preference level for Gold investment |
+| Stock_Market | Indicates if the person invests in the stock market (Yes / No) |
+| Factor | Main factor considered while investing (Risk / Returns / Locking Period) |
+| Objective | Primary investment objective (Growth / Income / Capital Appreciation) |
+| Purpose | Reason for investing (Wealth Creation / Savings for Future / Returns) |
+| Duration | Expected investment time period |
+| Invest_Monitor | How frequently the investor monitors investments |
+| Expect | Expected return percentage range |
+| Avenue | Preferred investment avenue (Mutual Fund, Equity, PPF, Fixed Deposit) |
+| Main_Purpose | Main purpose of the investment |
+| Reason_Equity | Reason for choosing Equity (Better Returns, Tax Benefits, Fund Diversification, etc.) |
+| Reason_Mutual | Reason for choosing Mutual Fund (Better Returns, Diversification) |
+| Reason_Bonds | Reason for choosing Bonds (Assured Returns, Safe Investment) |
+| Source | Source of investment information (Financial Consultants, Television, etc.) |
 
 ---
 
